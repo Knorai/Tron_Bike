@@ -1,2 +1,4 @@
 /// @description Player creation
-image_speed=0
+image_speed = 0
+direction = 90
+image_index = 3
