@@ -31,3 +31,4 @@ motion_add(direction,2.5)
 if speed > max_speed {
 	speed = max_speed
 } 
+screen_death()
