@@ -1,10 +1,9 @@
-function screen_death(){
+function screen_death(){ 
 
-if (o_player.x > room_width) {
+if o_player.x =  {
 	instance_destroy()
-}
-
-if (o_player.y > room_height) {
+	}
+if o_player.y = {
 	instance_destroy()
-}
+	}
 }
