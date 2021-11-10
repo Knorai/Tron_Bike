@@ -20,5 +20,5 @@ if instance_number(o_player) = 1 {
 		//x = o_player.xprevious - 11
 		//y = o_player.yprevious - 33
 	}
-	alarm[0] = room_speed * 0.5
+
 }
