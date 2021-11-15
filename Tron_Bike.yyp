@@ -4,6 +4,8 @@
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":0,},
     {"id":{"name":"exit_button","path":"scripts/exit_button/exit_button.yy",},"order":2,},
     {"id":{"name":"r_game","path":"rooms/r_game/r_game.yy",},"order":1,},
+    {"id":{"name":"f_two","path":"fonts/f_two/f_two.yy",},"order":1,},
+    {"id":{"name":"f_three","path":"fonts/f_three/f_three.yy",},"order":2,},
     {"id":{"name":"o_player_line","path":"objects/o_player_line/o_player_line.yy",},"order":3,},
     {"id":{"name":"s_enemy","path":"sprites/s_enemy/s_enemy.yy",},"order":1,},
     {"id":{"name":"s_button","path":"sprites/s_button/s_button.yy",},"order":4,},
