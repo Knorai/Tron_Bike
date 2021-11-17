@@ -1,2 +1,3 @@
 /// @description destruction
-//instance_destroy(o_player)
+//destroys player
+instance_destroy(o_player)

@@ -3,4 +3,7 @@ if room = r_game {
 	if instance_number(o_player) = 0 {
 		audio_stop_sound(a_music)
 	}
+if instance_count(o_player = 0) {
+	alarm[0] = 1
+	}
 }
