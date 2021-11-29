@@ -19,6 +19,6 @@ if room == r_game {
 		draw_text(x+333, y+150, "Game Over");
 	
 		draw_set_font(f_two)
-		draw_text(x+270, y+280, "Wait 3 seconds to return");
+		draw_text(x+220, y+280, "Press Enter to return to menu");
 	}
 }
