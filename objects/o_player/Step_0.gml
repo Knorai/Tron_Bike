@@ -35,4 +35,21 @@ if speed > max_speed {
 	speed = max_speed
 } 
 //Kills player when touching the room edge
-screen_death()
+screen_death() 
+
+if mouse_x > 0 && mouse_x < 1025 {
+	alarm[4] = 1
+}
+
+if direction = 180 {
+	alarm[3] = 1	
+}
+if direction = 90 {
+	alarm[0] = 1
+}
+if direction = 270 {
+	alarm[1] = 1
+}
+if direction = 0 {
+	alarm[2] = 1
+}
