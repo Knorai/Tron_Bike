@@ -1,3 +1,3 @@
 /// @description left laser
 //creates laser when going left
-instance_create_layer(xprevious - 11 , yprevious - 33 , "Instances", o_player_line)
+instance_create_layer(xprevious - 26 , yprevious - 34 , "Instances", o_player_line)
