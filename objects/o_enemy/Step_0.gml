@@ -3,10 +3,6 @@ if instance_number(o_player) = 1 {
 
 	motion_add(direction,2.5)
 
-	if speed > max_speed {
-		speed = max_speed
-	} 
-
 	if mouse_x > 0 && mouse_x < 1025 {
 		alarm[4] = 1
 	}
@@ -55,3 +51,10 @@ if instance_number(o_player) = 1 {
 //kills player if they touch the edge
 	screen_death()
 }
+if instance_number(o_player) = 0 {
+	max_speed = 0;
+}
+//Keeps player at a max speed
+if speed > max_speed {
+	speed = max_speed
+} 

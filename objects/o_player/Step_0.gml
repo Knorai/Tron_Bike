@@ -31,10 +31,6 @@ if instance_number(o_enemy) = 1 {
 //Keeps the player moving
 	motion_add(direction,2.5)
 
-//Keeps a max speed
-	if speed > max_speed {
-		speed = max_speed
-	} 
 //Kills player when touching the room edge
 	screen_death() 
 
@@ -55,3 +51,10 @@ if instance_number(o_enemy) = 1 {
 		alarm[2] = 1
 	}
 }
+if instance_number(o_enemy) = 0 {
+	max_speed = 0;
+}
+//Keeps player at a max speed
+if speed > max_speed {
+	speed = max_speed
+} 
