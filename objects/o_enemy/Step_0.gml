@@ -1,7 +1,7 @@
 /// @description Movement
 if instance_number(o_player) = 1 {
 
-	motion_add(direction,2.5)
+	motion_add(direction,3)
 
 	if mouse_x > 0 && mouse_x < 1025 {
 		alarm[4] = 1

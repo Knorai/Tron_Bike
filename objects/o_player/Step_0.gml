@@ -29,7 +29,7 @@ if instance_number(o_enemy) = 1 {
 		}
 	}
 //Keeps the player moving
-	motion_add(direction,2.5)
+	motion_add(direction,3)
 
 //Kills player when touching the room edge
 	screen_death() 
