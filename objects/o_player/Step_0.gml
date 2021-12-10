@@ -37,7 +37,7 @@ if instance_number(o_enemy) = 1 {
 	if mouse_x > 0 && mouse_x < 1025 {
 		alarm[4] = 1
 	}
-
+//creates the line that follows the player
 	if direction = 180 {
 		alarm[3] = 1	
 	}
@@ -51,6 +51,7 @@ if instance_number(o_enemy) = 1 {
 		alarm[2] = 1
 	}
 }
+//stops the player after an opponent dies
 if instance_number(o_enemy) = 0 {
 	max_speed = 0;
 }

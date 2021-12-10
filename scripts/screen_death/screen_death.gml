@@ -1,3 +1,4 @@
+//kills player when they touch the screen
 function screen_death(){ 
 var half_width = sprite_get_width(sprite_index) - 11;
 var half_height = sprite_get_height(sprite_index) - 11;

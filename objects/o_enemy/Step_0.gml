@@ -1,12 +1,12 @@
 /// @description Movement
 if instance_number(o_player) = 1 {
-
+	//keeps the player moving
 	motion_add(direction,3)
 
 	if mouse_x > 0 && mouse_x < 1025 {
 		alarm[4] = 1
 	}
-
+	//creates the laser behind the player
 	if direction = 180 {
 		alarm[3] = 1	
 	}
@@ -51,6 +51,7 @@ if instance_number(o_player) = 1 {
 //kills player if they touch the edge
 	screen_death()
 }
+//stops player if the opponent dies
 if instance_number(o_player) = 0 {
 	max_speed = 0;
 }

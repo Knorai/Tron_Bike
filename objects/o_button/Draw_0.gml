@@ -1,4 +1,5 @@
 /// @description Text
+//creates the buttons in the menu
 draw_set_font(f_one)
 draw_self();
 draw_set_halign(fa_center);
