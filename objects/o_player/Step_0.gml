@@ -29,7 +29,7 @@ if instance_number(o_enemy) = 1 {
 		}
 	}
 //Keeps the player moving
-	motion_add(direction,3)
+	motion_add(direction,4)
 
 //Kills player when touching the room edge
 	screen_death() 
@@ -53,9 +53,9 @@ if instance_number(o_enemy) = 1 {
 }
 //stops the player after an opponent dies
 if instance_number(o_enemy) = 0 {
-	max_speed = 0;
+	global.blue_max_speed = 0;
 }
 //Keeps player at a max speed
-if speed > max_speed {
-	speed = max_speed
+if speed > global.blue_max_speed {
+	speed = global.blue_max_speed
 } 
