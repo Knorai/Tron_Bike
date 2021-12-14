@@ -39,7 +39,7 @@ if instance_number(o_enemy) = 1 {
 	}
 //creates the line that follows the player
 	if direction = 180 {
-		alarm[3] = 1	
+		alarm[3] = 1
 	}
 	if direction = 90 {
 		alarm[0] = 1

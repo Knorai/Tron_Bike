@@ -7,6 +7,7 @@
     {"id":{"name":"s_powerup","path":"sprites/s_powerup/s_powerup.yy",},"order":8,},
     {"id":{"name":"r_game","path":"rooms/r_game/r_game.yy",},"order":1,},
     {"id":{"name":"f_two","path":"fonts/f_two/f_two.yy",},"order":1,},
+    {"id":{"name":"a_powerup","path":"sounds/a_powerup/a_powerup.yy",},"order":2,},
     {"id":{"name":"f_three","path":"fonts/f_three/f_three.yy",},"order":2,},
     {"id":{"name":"f_four","path":"fonts/f_four/f_four.yy",},"order":3,},
     {"id":{"name":"o_player_line","path":"objects/o_player_line/o_player_line.yy",},"order":3,},
