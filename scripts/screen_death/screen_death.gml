@@ -8,7 +8,7 @@ if (x < half_width or x > room_width - half_width) {
 	instance_destroy()
 }
 
-if (y < half_height or y > room_height - half_height) {
+if (y < half_height or y > room_height - half_height - 25) {
 	instance_destroy()
 	}
 }

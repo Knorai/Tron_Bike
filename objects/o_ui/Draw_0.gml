@@ -16,6 +16,9 @@ if room == r_menu {
 	draw_set_font(f_one)
 	draw_text(x+700 , y+600, "Arrows to move");
 	draw_text(x+780, y+670, "yellow");
+	
+	draw_set_font(f_two)
+	draw_text(x+135, y+800, "Collect powerups to increase speed");
 
 }
 //draws the end-game text
